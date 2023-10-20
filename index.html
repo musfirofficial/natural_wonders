@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Natural Wonders</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">Natural Wonders</header>
+
+    <div class="container">
+      <div class="circle big">
+        <img src="0.jpg" id="slide" class="fader" />
+      </div>
+      <div class="circle medium" class="rotateplus">
+        <img src="0.jpg" id="slide" />
+      </div>
+      <div class="circle small">
+        <img src="0.jpg" id="slide" class="rotateminus" />
+      </div>
+    </div>
+
+    <div class="text">
+      <h1 class="place popup">Aurora</h1>
+      <div class="line"></div>
+      <h2 class="location popdown">Iceland</h2>
+    </div>
+
+    <div class="text hidden">
+      <h1 class="place popup">Grand canyon</h1>
+      <div class="line"></div>
+      <h2 class="location popdown">America</h2>
+    </div>
+
+    <div class="text hidden" id="text3">
+      <h1 class="place popup">Great Barrier Reef</h1>
+      <div class="line"></div>
+      <h2 class="location popdown">Australia</h2>
+    </div>
+
+    <div class="text hidden">
+      <h1 class="place popup">Everest</h1>
+      <div class="line"></div>
+      <h2 class="location popdown">china & nepal</h2>
+    </div>
+
+    <div class="text hidden">
+      <h1 class="place popup">Parícutin</h1>
+      <div class="line"></div>
+      <h2 class="location popdown">Mexico</h2>
+    </div>
+
+    <div class="text hidden">
+      <h1 class="place popup">Victoria Falls</h1>
+      <div class="line"></div>
+      <h2 class="location popdown">Zimbabwe</h2>
+    </div>
+
+    <div class="text hidden">
+      <h1 class="place popup">Harbor of rj</h1>
+      <div class="line"></div>
+      <h2 class="location popdown">brazil</h2>
+    </div>
+
+    <div class="buttons">
+      <button><i class="fa-solid fa-info"></i></button>
+      <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+      <button class="replay hidden" onClick="history.go(0);">
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+    </div>
+
+    <div class="overlay"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
