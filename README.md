@@ -7,3 +7,4 @@ Used languages :
 - CSS
 - JS
 
+![Preview](https://github.com/musfirofficial/natural_wonders/assets/106896250/598e539d-77ab-47ee-bf1b-7b72fc768bf4)
